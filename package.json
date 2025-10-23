@@ -1,0 +1,39 @@
+{
+  "name": "webmd-cli",
+  "version": "1.0.0",
+  "description": "Convert web pages to Markdown files. Supports single page conversion and full site crawling via sitemap.xml",
+  "main": "cli.js",
+  "bin": {
+    "webmd": "./cli.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "markdown",
+    "html",
+    "converter",
+    "cli",
+    "sitemap",
+    "crawler",
+    "html2md",
+    "web-scraping"
+  ],
+  "author": "towada",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/towada/webmd-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/towada/webmd-cli/issues"
+  },
+  "homepage": "https://github.com/towada/webmd-cli#readme",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "turndown": "^7.1.2",
+    "fast-xml-parser": "^4.3.0"
+  }
+}
